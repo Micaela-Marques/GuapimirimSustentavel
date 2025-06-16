@@ -1,0 +1,79 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url("imagens/dedo-de-deus.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #2e2e2e;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(200, 240, 200, 0.85); /* camada verde clara */
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+  }
+  
+  /* Cabeçalho */
+  header {
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid #81c784;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #2e7d32;
+  }
+  
+  header p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    color: #4e4e4e;
+  }
+  
+  /* Container principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: #ffffffdd;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card h2 {
+    margin: 0.5rem 1rem 0.3rem;
+    font-size: 1.3rem;
+    color: #2e7d32;
+  }
+  
+  .card p {
+    font-size: 0.95rem;
+    margin: 0.3rem 1rem 0.6rem;
+    line-height: 1.4;
+  }
+  
